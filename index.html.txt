@@ -1,0 +1,80 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>H.B GRAPHICS | Professional Graphic Designer</title>
+  <meta name="description" content="H.B GRAPHICS – Professional Graphic Designer specializing in branding, logo design, flyers, social media graphics, and visual identity." />
+  <style>
+    :root{
+      --primary:#6b4eff;
+      --dark:#0f1220;
+      --light:#f7f7fb;
+      --gray:#6b7280;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;font-family:Arial, Helvetica, sans-serif}
+    body{background:var(--light);color:#111}
+    header{background:linear-gradient(135deg,var(--primary),#9b8cff);color:white;padding:70px 20px;text-align:center}
+    header h1{font-size:2.8rem;letter-spacing:1px}
+    header p{max-width:700px;margin:15px auto;font-size:1.1rem}
+    nav{background:white;box-shadow:0 4px 10px rgba(0,0,0,.05);position:sticky;top:0;z-index:100}
+    nav ul{display:flex;justify-content:center;gap:25px;list-style:none;padding:15px}
+    nav a{text-decoration:none;color:#111;font-weight:bold}
+    nav a:hover{color:var(--primary)}
+    section{padding:70px 20px;max-width:1100px;margin:auto}
+    section h2{text-align:center;margin-bottom:40px;font-size:2rem;color:var(--dark)}
+    .about p{text-align:center;max-width:850px;margin:auto;color:var(--gray);font-size:1.05rem}
+    .services,.portfolio{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+    .card{background:white;padding:30px;border-radius:16px;box-shadow:0 8px 20px rgba(0,0,0,.06);transition:.3s}
+    .card:hover{transform:translateY(-5px)}
+    .card h3{margin-bottom:12px;color:var(--primary)}
+    .card p{color:var(--gray)}
+    .contact{text-align:center}
+    .contact p{margin-bottom:15px;color:var(--gray)}
+    .btn{display:inline-block;background:var(--primary);color:white;padding:14px 30px;border-radius:30px;text-decoration:none;font-weight:bold}
+    .btn:hover{background:#5538ee}
+    footer{background:var(--dark);color:#cbd5e1;text-align:center;padding:25px;margin-top:40px}
+  </style>
+</head>
+<body><header>
+  <h1>H.B GRAPHICS</h1>
+  <p>Professional Graphic Designer | Branding • Logo Design • Flyers • Social Media Graphics • Visual Identity</p>
+</header><nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav><section id="about" class="about">
+  <h2>About Me</h2>
+  <p>
+    H.B GRAPHICS is a creative brand focused on delivering high‑quality visual designs that communicate clearly and professionally.
+    I help individuals, businesses, and brands stand out through modern, clean, and effective graphic design solutions.
+  </p>
+</section><section id="services">
+  <h2>My Services</h2>
+  <div class="services">
+    <div class="card"><h3>Logo Design</h3><p>Unique and memorable logos that represent your brand identity.</p></div>
+    <div class="card"><h3>Brand Identity</h3><p>Complete branding including colors, typography, and brand guidelines.</p></div>
+    <div class="card"><h3>Flyer & Poster Design</h3><p>Eye‑catching promotional designs for events and businesses.</p></div>
+    <div class="card"><h3>Social Media Graphics</h3><p>Creative posts, banners, and ads optimized for all platforms.</p></div>
+    <div class="card"><h3>Business Cards</h3><p>Professional and modern business card designs.</p></div>
+    <div class="card"><h3>Canva Designs</h3><p>Editable Canva designs for easy future updates.</p></div>
+  </div>
+</section><section id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="portfolio">
+    <div class="card"><h3>Brand Logos</h3><p>Collection of modern logo projects.</p></div>
+    <div class="card"><h3>Flyer Designs</h3><p>Event and promotional flyer samples.</p></div>
+    <div class="card"><h3>Social Media Posts</h3><p>Instagram, Facebook, and banner designs.</p></div>
+  </div>
+</section><section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <p>Ready to work together? Let's bring your ideas to life.</p>
+  <p><strong>Email:</strong> yourname@email.com</p>
+  <p><strong>WhatsApp:</strong> +234 XXX XXX XXXX</p>
+  <a href="mailto:yourname@email.com" class="btn">Hire Me</a>
+</section><footer>
+  <p>© 2026 H.B GRAPHICS. All Rights Reserved.</p>
+</footer></body>
+</html>
